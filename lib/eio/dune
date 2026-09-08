@@ -1,0 +1,4 @@
+(library
+ (name aws_lambda_eio)
+ (public_name aws-lambda-eio)
+ (libraries aws-lambda eio eio.core cohttp-eio http uri unix))

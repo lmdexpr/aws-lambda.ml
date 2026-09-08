@@ -1,0 +1,11 @@
+(tests
+ (names test_aws_lambda test_aws_lambda_eio)
+ (libraries
+  aws-lambda
+  aws-lambda-eio
+  alcotest
+  eio
+  eio.core
+  eio_main
+  cohttp-eio
+  http))
